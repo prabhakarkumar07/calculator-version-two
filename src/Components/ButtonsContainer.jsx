@@ -2,7 +2,7 @@ import React from "react";
 
 const ButtonsContainer = ({ onButtonClick }) => {
   const buttonsName = [
-    "C",
+    "AC",
     "1",
     "2",
     "+",
@@ -19,6 +19,8 @@ const ButtonsContainer = ({ onButtonClick }) => {
     "9",
     "0",
     ".",
+    "C",
+    "His",
   ];
   return (
     <div className="button-container">
